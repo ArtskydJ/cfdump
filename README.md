@@ -33,8 +33,8 @@ A speedy alternative to ColdFusion's `<cfdump>` tag
 
 ## speed
 
-The main reason for this project is that `<cfdump var="#x#">` can be ridiculously slow.
-This is easily 100x faster than `<cfdump` on mid/large queries.
+The main reason for this project is that `<cfdump>` can be ridiculously slow.
+This is easily 100x faster than `<cfdump>` on mid/large queries.
 I have not yet tested the time difference for arrays and structs.
 
 I tested the time difference with a query of 52 columns and 25 rows.
